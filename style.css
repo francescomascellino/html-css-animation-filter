@@ -121,9 +121,6 @@
 
 .ex-10-icon {
     font-size: 60px;
-}
-
-.ex-10-icon {
     animation: ex-10-spin 0.5s infinite;
 }
 
@@ -153,6 +150,32 @@
 
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover {
+    animation: ex-11-spin 1.5s ease-out;
+}
+
+@keyframes ex-11-spin {
+    0% {
+        transform: rotate();
+    }
+
+    25% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .ex-12-button,
