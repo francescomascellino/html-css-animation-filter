@@ -94,6 +94,17 @@
 
 /* EX8 */
 
+.ex-8-img {
+    transition: border-radius 1s, filter 1s;
+}
+
+.ex-8-img:hover {
+    border-radius: 15px;
+    filter: sepia(0.5);
+}
+
+/* EX9 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
