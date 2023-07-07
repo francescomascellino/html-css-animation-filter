@@ -100,7 +100,7 @@
 
 .ex-8-img:hover {
     border-radius: 15px;
-    filter: sepia(0.5);
+    filter: sepia(0.5) brightness(0.75);
 }
 
 /* EX9 */
@@ -108,7 +108,16 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: border-radius 2s, filter 2s, transform 2s;
 }
+
+.ex-9-img:hover {
+    border-radius: 15px;
+    filter: sepia(0.5) brightness(0.75);
+    transform: scale(0.5);
+}
+
+/* EX10 */
 
 .ex-10-icon {
     font-size: 60px;
