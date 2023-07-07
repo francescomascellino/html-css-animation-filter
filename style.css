@@ -268,3 +268,67 @@
         right: 20%
     }
 }
+
+/* EX13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: ex13-top-move 1s linear;
+}
+
+@keyframes ex13-top-move {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    25% {
+        left: 50%;
+        top: -10px;
+    }
+
+    50% {
+        left: 80%;
+        top: 15px;
+    }
+
+    75% {
+        left: 90%;
+        top: 30px;
+    }
+
+    100% {
+        left: 90%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: ex13-bottom-move 1s linear;
+}
+
+@keyframes ex13-bottom-move {
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+
+    25% {
+        right: 50%;
+        bottom: -10px;
+    }
+
+    50% {
+        right: 80%;
+        bottom: 15px;
+    }
+
+    75% {
+        right: 90%;
+        bottom: 30px;
+    }
+
+    100% {
+        right: 90%;
+        bottom: -10px;
+    }
+}
