@@ -178,6 +178,8 @@
     }
 }
 
+/* EX 12/13 GENERAL RULES */
+
 .ex-12-button,
 .ex-13-button {
     position: relative;
@@ -211,4 +213,58 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+/* EX12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: ex12-top-move 2s ease-out;
+}
+
+@keyframes ex12-top-move {
+    0% {
+        left: 10%;
+    }
+
+    25% {
+        left: 30
+    }
+
+    50% {
+        left: 45
+    }
+
+    75% {
+        left: 69%
+    }
+
+    100% {
+        left: 10%
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: ex12-bottom-move 2s ease-out;
+}
+
+@keyframes ex12-bottom-move {
+    0% {
+        right: 20%;
+    }
+
+    25% {
+        right: 30%
+    }
+
+    50% {
+        right: 45%
+    }
+
+    75% {
+        right: 69%
+    }
+
+    100% {
+        right: 20%
+    }
 }
