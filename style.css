@@ -84,7 +84,15 @@
 
 /* EX7 */
 
+.ex-7-img {
+    transition: filter 2s;
+}
 
+.ex-7-img:hover {
+    filter: sepia(0.7) grayscale(0.2);
+}
+
+/* EX8 */
 
 .ex-9-img {
     margin: 50px 100px;
